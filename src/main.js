@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'lib-flexible'
+import Vuex from 'vuex'
 
+Vue.use(Vuex)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
